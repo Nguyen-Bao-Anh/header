@@ -1,3 +1,6 @@
+.navbar-shadow {
+  box-shadow: 0 3px #f8f9fa;
+}
 .navbar-nav {
   justify-content: flex-end;
 }
@@ -10,4 +13,21 @@
 
 @media (max-width: 992px) {
 	// TODO
+}
+
+.nav-link {
+  line-height: 19.4 px;
+  color: #505353 !important;
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 35px;
+  font-family: 'Open Sans';
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: #FEFFFF !important;
+  background-color: #B2D235;
+  border-radius: 24px;
+ 
 }
