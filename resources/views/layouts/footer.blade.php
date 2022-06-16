@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" href="">
 <footer class="text-center text-lg-start  edit_footer">
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom footer_model bg-light text-muted">
         <div>
