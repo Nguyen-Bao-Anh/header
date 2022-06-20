@@ -3,21 +3,25 @@
 @section('content')
 
 <section class="example background-banner">
-    <div class="container">
-        <div class="row ">
+    
+</section>
+
+<div class="container-fluid">
+        <div class="row row-color">
             <div class="col-md-5 title">
                 <div class="banner-title">
                     Learn Anytime, Anywhere
                     <span class="title_extra">
                         at HapoLearn
-                        <img src="/images/2.PNG" alt="haposhoft" class="title-img">
+                        <img src="/images/Hapo.PNG" alt="haposhoft" class="title-img">
                         !
                     </span>
                 </p>
             </div>
 
             <div class="title_sp">
-                Interactive lessons, "on the go" practice, peer support
+                Interactive lessons, "on the go" 
+                <br>practice, peer support
             </div>
 
             <div class="start">
@@ -28,5 +32,4 @@
 
         </div>
     </div>
-</section>
 @endsection
