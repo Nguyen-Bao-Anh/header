@@ -1,12 +1,19 @@
+@font-face {
+    font-family: UTM BryantLG;
+    src: url("../../assets/fonts/UTM_BryantLG_B.ttf");
+    src: url("../../assets/fonts/UTM_BryantLG.ttf");
+    src: url("../../assets/fonts/utm_bryantlg-webfont.woff");
+    src: url("../../assets/fonts/utm_bryantlg-webfont.woff2");
+}
+
 .background-banner {
     background-image: url('/images/Hapo_Learn_banner.png');
     background-repeat: no-repeat;
     background-size: 100%;
-    // background-position: center;
-    // position: relative;
     height: 816px;
     background-color: #E5E5E5;
 }
+
 .title {
     position: absolute;
     top: 308px;
@@ -14,7 +21,7 @@
 }
 
 .banner-title {
-    font-family: 'UTM BryantLG';
+    family: 'UTM BryantLG';
     font-style: normal;
     font-weight: 300;
     font-size: 50px;
@@ -46,7 +53,7 @@
     line-height: 25px;
     letter-spacing: -0.05em;
     color: #505353;
-    width: 15rem;
+    width: 16rem;
 }
 
 .btn-start {
@@ -66,6 +73,54 @@
     height: 70px;
 }
 
+// Course
+
+.border-course {
+    border-radius: 2.25rem !important
+}
+
+.img-custom {
+    background-image: url('/images/Rectangle 7.png');
+    background-position: center;
+    background-size: auto auto;
+    background-color: #3F6185;
+    background-repeat: no-repeat;
+    height: 215px;
+}
+
+.card-content {
+    text-align: center;
+    font-family: 'UTM BryantLG';
+    font-style: normal;
+}
+
+.title-course {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.05em;
+    color: #B2D235;
+}
+
+.title-course-content {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #505353;
+}
+
+.btn-course {
+    background: #B2D235;
+    box-shadow: inset 0px 1.5px 2px #6F8710;
+    border-radius: 22px;
+    font-family: 'UTM BryantLG';
+    font-style: normal;
+    font-weight: 700;
+    color:#ffff;
+    padding: 9px 39px;
+}
 // Table
 @media  (min-width: 740px) and  (max-width: 1023px) {
 	.background-banner {
@@ -73,7 +128,6 @@
         height: 496px;
         background-repeat: no-repeat;
         background-size: 100%;
-        
     }
 
     .title-img {
@@ -93,7 +147,6 @@
     .title_extra {
         font-size: 30px;
     }
-    
 
     .title_sp {
         font-size: 16px;
@@ -108,9 +161,6 @@
 
 // Mobile
 @media (max-width: 739px) {
-    .example {
-        min-height: 30vh !important;
-    }
     .row-color {
         background-image: linear-gradient(0,#E5E5E5,#ffff);
     }
@@ -120,8 +170,7 @@
         height: 200px;
         background-repeat: no-repeat;
         background-size: 100%;
-        // background-position: center;
-        
+        min-height: 24vh !important;
     }
 
     .title {
@@ -129,7 +178,7 @@
         top: 0px;
         left: 0px;
         margin: 16px 0 116px 0;
-        text-align: center;
+        text-align: left;
     }
 
     .title-img {
@@ -138,15 +187,19 @@
     }
 
     .banner-title {
+        font-style: normal;
+        font-weight: 300;
         font-size: 25px;
-        line-height: 0;
-        width: 100%;
+        line-height: 32px;
+        width: 17rem;
+        margin-left: 12%;
     }
 
     .title_extra {
         display: inline;
         font-size: 25px;
-        line-height: 30px
+        line-height: 30px;
+        
     }
 
     .title_sp {
@@ -154,15 +207,18 @@
         margin-top: -16px;
         font-size: 16px;
         width: 199px;
+        margin-left: 12%;
+        width: 30px;
     }
 
     .start {
         text-align: center;
     }
+    
     .btn-start {
         font-size: 16px;
         width: 250px;
         height: 46px;
-      }
+    }
     
 }
