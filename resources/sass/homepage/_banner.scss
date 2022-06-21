@@ -1,125 +1,124 @@
 @font-face {
-    font-family: UTM BryantLG;
-    src: url("../../assets/fonts/UTM_BryantLG_B.ttf");
-    src: url("../../assets/fonts/UTM_BryantLG.ttf");
-    src: url("../../assets/fonts/utm_bryantlg-webfont.woff");
-    src: url("../../assets/fonts/utm_bryantlg-webfont.woff2");
+  font-family: UTM BryantLG;
+  src: url("../../assets/fonts/UTM_BryantLG_B.ttf");
+  src: url("../../assets/fonts/UTM_BryantLG.ttf");
+  src: url("../../assets/fonts/utm_bryantlg-webfont.woff");
+  src: url("../../assets/fonts/utm_bryantlg-webfont.woff2");
 }
 
 .background-banner {
-    background-image: url('/images/Hapo_Learn_banner.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 816px;
-    background-color: #E5E5E5;
+  background-image: url('/images/Hapo_Learn_banner.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 816px;
+  background-color: #E5E5E5;
 }
 
 .title {
-    position: absolute;
-    top: 308px;
-    left: 26px;
+  position: absolute;
+  top: 308px;
+  left: 26px;
 }
 
 .banner-title {
-    family: 'UTM BryantLG';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 50px;
-    line-height: 61px;
-    color: #11114E;
-    width: 35rem;
+  family: 'UTM BryantLG';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 61px;
+  color: #11114E;
+  width: 35rem;
 }
 
 .title_extra {
-    display: flex;
-    font-family: 'UTM BryantLG';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 61px;
-    color: #11114E;
+  display: flex;
+  font-family: 'UTM BryantLG';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #11114E;
 }
 
 .title-img {
-    margin: 0 4px;
-    height: 61px;
+  margin: 0 4px;
+  height: 61px;
 }
 
 .title_sp {
-    font-family: 'UTM BryantLG';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: -0.05em;
-    color: #505353;
-    width: 16rem;
+  font-family: 'UTM BryantLG';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.05em;
+  color: #505353;
+  width: 16rem;
 }
 
 .btn-start {
-    background: #B2D235;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: 0;
-    border-radius: 35px;
-    font-family: 'UTM BryantLG';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 37px;
-    letter-spacing: -0.05em;
-    color: #FFFFFF;
-    margin-top: 26px;
-    width: 377px;
-    height: 70px;
+  background: #B2D235;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 0;
+  border-radius: 35px;
+  font-family: 'UTM BryantLG';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  margin-top: 26px;
+  width: 377px;
+  height: 70px;
 }
 
 // Course
-
 .border-course {
-    border-radius: 2.25rem !important
+  border-radius: 2.25rem !important
 }
 
 .img-custom {
-    background-image: url('/images/Rectangle 7.png');
-    background-position: center;
-    background-size: auto auto;
-    background-color: #3F6185;
-    background-repeat: no-repeat;
-    height: 215px;
+  background-image: url('/images/Rectangle 7.png');
+  background-position: center;
+  background-size: auto auto;
+  background-color: #3F6185;
+  background-repeat: no-repeat;
+  height: 215px;
 }
 
 .card-content {
-    text-align: center;
-    font-family: 'UTM BryantLG';
-    font-style: normal;
+  text-align: center;
+  font-family: 'UTM BryantLG';
+  font-style: normal;
 }
 
 .title-course {
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 37px;
-    letter-spacing: -0.05em;
-    color: #B2D235;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.05em;
+  color: #B2D235;
 }
 
 .title-course-content {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 20px;
-    text-align: center;
-    letter-spacing: -0.05em;
-    color: #505353;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: -0.05em;
+  color: #505353;
 }
 
 .btn-course {
-    background: #B2D235;
-    box-shadow: inset 0px 1.5px 2px #6F8710;
-    border-radius: 22px;
-    font-family: 'UTM BryantLG';
-    font-style: normal;
-    font-weight: 700;
-    color:#ffff;
-    padding: 9px 39px;
+  background: #B2D235;
+  box-shadow: inset 0px 1.5px 2px #6F8710;
+  border-radius: 22px;
+  font-family: 'UTM BryantLG';
+  font-style: normal;
+  font-weight: 700;
+  color:#ffff;
+  padding: 9px 39px;
 }
 // Table
 @media  (min-width: 740px) and  (max-width: 1023px) {
