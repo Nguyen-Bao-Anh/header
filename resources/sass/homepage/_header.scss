@@ -53,7 +53,6 @@
   border-radius: 24px;
 }
 
-// Table
 @media  (min-width: 740px) and  (max-width: 1023px) {
   .navbar-img {
     margin: 0;
@@ -73,7 +72,7 @@
   .nav-button {
     border: 0;
   }
-
+  
   .nav_icon {
     font-family: 'FontAwesome';
     font-style: normal;
@@ -101,7 +100,6 @@
   }
 }
 
-// Mobile
 @media (max-width: 739px) {
   .navbar-img {
     display: flex;
