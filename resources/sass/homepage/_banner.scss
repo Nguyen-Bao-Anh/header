@@ -14,7 +14,7 @@
 }
 
 .banner-title {
-  family: 'UTM BryantLG';
+  font-family: 'UTM BryantLG';
   font-style: normal;
   font-weight: 300;
   font-size: 50px;
@@ -105,7 +105,7 @@
 
 @media (max-width: 739px) {
   .row-color {
-    background-image: linear-gradient(0,#E5E5E5,#ffff);
+    background-image: linear-gradient(0, #E5E5E5, #ffff);
   }
 
   .background-banner {
@@ -113,53 +113,53 @@
     height: 200px;
     background-repeat: no-repeat;
     background-size: 100%;
-    min-height: 24vh !important;
+    min-height: 208px !important;
   }
 
   .title {
-      position: relative;
-      top: 0px;
-      left: 0px;
-      margin: 16px 0 116px 0;
-      text-align: left;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 16px 0 116px 0;
+    text-align: left;
   }
 
   .title-img {
-      margin: 0px 2px 0 2px;
-      height: 23px;
+    margin: 0px 2px 0 2px;
+    height: 23px;
   }
 
   .banner-title {
-      font-style: normal;
-      font-weight: 300;
-      font-size: 25px;
-      line-height: 32px;
-      width: 17rem;
-      margin-left: 12%;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 32px;
+    width: 17rem;
+    margin-left: 12%;
   }
 
   .title_extra {
-      display: inline;
-      font-size: 25px;
-      line-height: 30px;  
+    display: inline;
+    font-size: 25px;
+    line-height: 30px;  
   }
 
   .title_content {
-      display: inline;
-      margin-top: -16px;
-      font-size: 16px;
-      width: 199px;
-      margin-left: 12%;
-      width: 30px;
+    display: inline;
+    margin-top: -16px;
+    font-size: 16px;
+    width: 199px;
+    margin-left: 12%;
+    width: 30px;
   }
 
   .start {
-      text-align: center;
+    text-align: center;
   }
 
   .btn-start {
-      font-size: 16px;
-      width: 250px;
-      height: 46px;
+    font-size: 16px;
+    width: 250px;
+    height: 46px;
   }
 }

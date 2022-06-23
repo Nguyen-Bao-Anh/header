@@ -19,12 +19,6 @@
                     <a class="nav-link " href="#"  aria-haspopup="true" aria-expanded="false">
                         LOGIN/REGISTER
                     </a>
-                    <!-- <div class="dropdown-menu dropdown-menu-fix" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item dropdown-item-fix" href="#">Action</a>
-                        <a class="dropdown-item dropdown-item-fix" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item dropdown-item-fix" href="#">Something else here</a>
-                    </div> -->
                 </li>
                 <li class="nav-item">
                     <a class="nav-link " href="#">PROFILE</a>
@@ -33,3 +27,4 @@
         </div>
     </nav>
 </header>
+

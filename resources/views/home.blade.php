@@ -19,7 +19,7 @@
                 </p>
             </div>
 
-            <div class="title_sp">
+            <div class="title_content">
                 Interactive lessons, "on the go" 
                 <div style="margin-left: 12%;">
                 practice, peer support
