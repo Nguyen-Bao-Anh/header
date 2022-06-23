@@ -23,7 +23,7 @@
                 Interactive lessons, "on the go" 
                 <div style="margin-left: 12%;">
                 practice, peer support
-                </div>
+                </div>div
             </div>
 
             <div class="start">
@@ -130,6 +130,40 @@
             <div class="col-lg-5 course-shows">
                 View All Our Courses 
                 <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="why background-why ">
+    <div class="container-fluid background-why">
+        <div class="row align-items-center ">
+            <div class="col-lg-4 offset-lg-1 why-content">
+                <h4 class="why-title">Why HapoLearn?</h4>
+                <div class="why-text">
+                    <i class="fa-solid fa-circle-check"></i>
+                    Interactive lessons, "on-the-go" practice, peer support.
+                </div>
+                <div class="why-text">
+                    <i class="fa-solid fa-circle-check"></i>
+                    Interactive lessons, "on-the-go" practice, peer support.
+                </div>
+                <div class="why-text">
+                    <i class="fa-solid fa-circle-check"></i>
+                    Interactive lessons, "on-the-go" practice, peer support.
+                </div>
+                <div class="why-text">
+                    <i class="fa-solid fa-circle-check"></i>
+                    Interactive lessons, "on-the-go" practice, peer support.
+                </div>
+                <div class="why-text">
+                    <i class="fa-solid fa-circle-check"></i>
+                    Interactive lessons, "on-the-go" practice, peer support.
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <img src="{{ asset('images/background-device.png') }}" alt="why">
             </div>
         </div>
     </div>

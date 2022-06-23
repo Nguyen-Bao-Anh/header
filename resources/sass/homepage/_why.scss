@@ -1,0 +1,28 @@
+.background-why {
+  background-image: url('/images/background-why.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.why-content {
+  font-family: 'UTM BryantLG';
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+.why-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 86px;
+  text-align: center;
+  letter-spacing: -0.02em;
+}
+
+.why-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.05em;
+  margin-bottom: 25px;
+}
