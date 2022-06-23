@@ -135,9 +135,9 @@
     </div>
 </section>
 
-<section class="why background-why ">
-    <div class="container-fluid background-why">
-        <div class="row align-items-center ">
+<section class=" ">
+    <div class="container-fluid ">
+        <div class="row align-items-center background-why">
             <div class="col-lg-4 offset-lg-1 why-content">
                 <h4 class="why-title">Why HapoLearn?</h4>
                 <div class="why-text">
@@ -163,7 +163,7 @@
             </div>
 
             <div class="col-lg-4">
-                <!-- <img src="{{ asset('images/background-device.png') }}" alt="why"> -->
+                <img src="{{ asset('images/background-device.png') }}" alt="why">
             </div>
         </div>
     </div>
