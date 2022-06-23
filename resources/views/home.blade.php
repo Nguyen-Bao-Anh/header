@@ -163,7 +163,7 @@
             </div>
 
             <div class="col-lg-4">
-                <img src="{{ asset('images/background-device.png') }}" alt="why">
+                <!-- <img src="{{ asset('images/background-device.png') }}" alt="why"> -->
             </div>
         </div>
     </div>
