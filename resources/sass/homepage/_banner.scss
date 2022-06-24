@@ -66,7 +66,7 @@
 
 @media  (min-width: 740px) and  (max-width: 1023px) {
   .background-banner {
-    background-image: url('/images/Hapo_Learn_banner_tablet.png');
+    background-image: url('/images/Hapo_Learn_banner_tablet.png') , linear-gradient(0, #E5E5E5, #ffff);;
     height: 496px;
     background-repeat: no-repeat;
     background-size: 100%;
