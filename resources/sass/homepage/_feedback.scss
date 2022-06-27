@@ -29,15 +29,18 @@
 
 .feedback-user {
   margin-top: 36px;
+  padding-left: 100px;
+  width: 100%;
 }
 
 .feedback-content {
-  padding: 16px 25px;
+  padding: 16px 21px;
   border: 0.5px solid #E2E2E2;
   border-radius: 10px;
   box-shadow: 0 0rem 0.5rem rgba(0, 0, 0, 0.5);
   margin-bottom: 25px;
   position: relative;
+  max-width: 570px;
 }
 
 .feedback-content::before {
@@ -65,7 +68,6 @@
   line-height: 25px;
   color: #11114E;
 }
-
 .user-language {
   font-weight: 300;
   font-size: 16px;
@@ -87,17 +89,17 @@
     padding: 0;
     height: 90px;
   }
-
   .feedback-title-extra {
     font-size: 18px;
     padding: 16px 160px;;
   }
-
-  .user-second {
-    display: none;
-  }
 }
 
 @media (max-width: 739px) {
-
+  
 }
+
+
+
+
+

@@ -11,9 +11,8 @@
                     </div>
                 </div>
             </div>
-
             <div class="row feedback-user">
-                <div class="col-lg-5 col-md-7 offset-lg-1">
+                <div class="col-lg-10 ml-3">
                     <div class="row ">
                         <div class="col-lg-12 col-md-12 feedback-content">
                             <div class="feedback-content-additional">
@@ -22,7 +21,7 @@
                         </div>
                         <div class="col-lg-6 col-md-12">
                             <div class="row ">
-                                <div class="col-lg-3  user-img">
+                                <div class="col-lg-3 user-img">
                                     <img src="{{ asset('images/avatar.png') }}" alt="avatar">
                                 </div>
                                 <div class="col-lg-8 user-info">
@@ -43,7 +42,67 @@
                     </div>
                 </div>
 
-                <div class="col-lg-5 ml-3 user-second">
+                <div class="col-lg-10 ml-3 ">
+                    <div class="row ">
+                        <div class="col-lg-12 feedback-content">
+                            <div class="feedback-content-additional">
+                                <p>“A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row ">
+                                <div class="col-lg-3 user-img">
+                                    <img src="{{ asset('images/avatar.png') }}" alt="avatar">
+                                </div>
+                                <div class="col-lg-8 user-info">
+                                    Nguyen Bao Anh
+                                    <div class="user-language">
+                                        Python
+                                    </div>
+                                    <div class="user-evaluate">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-10 ml-3 ">
+                    <div class="row ">
+                        <div class="col-lg-12 feedback-content">
+                            <div class="feedback-content-additional">
+                                <p>“A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row ">
+                                <div class="col-lg-3 user-img">
+                                    <img src="{{ asset('images/avatar.png') }}" alt="avatar">
+                                </div>
+                                <div class="col-lg-8 user-info">
+                                    Nguyen Bao Anh
+                                    <div class="user-language">
+                                        Python
+                                    </div>
+                                    <div class="user-evaluate">
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star"></i>
+                                        <i class="fa-solid fa-star-half"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-10 ml-3 ">
                     <div class="row ">
                         <div class="col-lg-12 feedback-content">
                             <div class="feedback-content-additional">
@@ -73,7 +132,6 @@
                     </div>
                 </div>
             </div>
-               
         </div>
     </div>
 </section>
