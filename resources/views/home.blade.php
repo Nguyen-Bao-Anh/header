@@ -11,7 +11,7 @@
             <div class="col-md-5 title">
                 <div class="banner-title">
                     Learn Anytime, Anywhere
-                    <span class="title_extra">
+                    <span class="title-extra">
                         at HapoLearn
                         <img src="/images/Hapo.PNG" alt="haposhoft" class="title-img">
                         !
@@ -19,7 +19,7 @@
                 </p>
             </div>
 
-            <div class="title_content">
+            <div class="title-content">
                 Interactive lessons, "on the go" 
                 <div style="margin-left: 12%;">
                 practice, peer support
