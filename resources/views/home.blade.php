@@ -31,7 +31,6 @@
                     Start Learning Now!
                 </button>
             </div>
-
         </div>
 </div>
 
