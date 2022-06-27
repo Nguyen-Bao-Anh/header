@@ -40,7 +40,7 @@
         <div class="row ">
             <div class="col-lg-4 card-distance">
                 <div class="card border-course card-position card-shadow" >
-                    <div class="row no-gutters">
+                    <div class="row no-gutters">img-custotitle-course
                     <div class="img-custom col-lg-12 col-md-4 rounded-top-1"></div>
                     <div class="card-body col-lg-12 col-md-8 card-content">
                         <h5 class="card-title title-course" >HTML/CSS/js Tutorial</h5>
