@@ -2,10 +2,10 @@
     <div class="container-fluid">
         <div class="row ">
             <div class="row justify-content-center">
-                <div class="col-lg-3 col-md-3 feedback-title">
+                <div class="col-lg-3 col-md-3 col-5 feedback-title">
                     Feedback
                 </div>
-                <div class="row justify-content-center">
+                <div class="row justify-content-center row-title-extra">
                     <div class=" col-lg-8  feedback-title-extra">
                         What other students turned professionals have to say about us after learning with us and reaching their goals
                     </div>
@@ -135,3 +135,4 @@
         </div>
     </div>
 </section>
+

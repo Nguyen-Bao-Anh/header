@@ -96,7 +96,21 @@
 }
 
 @media (max-width: 739px) {
+  .row-title-extra {
+    margin-right: 0;
+  }
   
+  .feedback-title {
+    font-size: 39px;
+    margin-top: 81px;
+    padding: 0;
+    height: 90px;
+  }
+
+  .feedback-title-extra {
+    font-size: 16px;
+    padding: 16px 160px;;
+  }
 }
 
 
