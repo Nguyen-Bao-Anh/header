@@ -1,69 +1,164 @@
 .background-banner {
-    background-image: url('/images/Hapo_Learn_banner.png');
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 655px;
-    margin-top: 2px;
-    
-}
-.title {
-    position: absolute;
-    top: 204px;
-    left: 60px;
- 
-}
-.banner-title {
-    font-family: 'UTM BryantLG';
-    font-style: normal;
-    font-weight: 300;
-    font-size: 50px;
-    line-height: 61px;
-    letter-spacing: -0.05em;
-    color: #11114E;
-    width: 32rem;
+  background-image: url('/images/Hapo_Learn_banner_pc.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 816px;
+  background-color: #E5E5E5;
 }
 
-.title_extra {
-    display: flex;
-    font-family: 'UTM BryantLG';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 61px;
-    color: #11114E;
+.title {
+  position: absolute;
+  top: 308px;
+  left: 26px;
+}
+
+.banner-title {
+  font-family: 'UTM BryantLG';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 61px;
+  color: #11114E;
+  width: 35rem;
+}
+
+.title-extra {
+  display: flex;
+  font-family: 'UTM BryantLG';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  color: #11114E;
 }
 
 .title-img {
-    margin-top: 4px;
-    height: 61px;
+  margin: 0 4px;
+  height: 61px;
 }
 
-.title_sp {
-    font-family: 'UTM BryantLG';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: -0.05em;
-    color: #505353;
-    width: 15rem;
+.title-content {
+  font-family: 'UTM BryantLG';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: -0.05em;
+  color: #505353;
+  width: 16rem;
 }
 
 .btn-start {
-    background: #B2D235;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border: 0;
-    border-radius: 35px;
-    font-family: 'UTM BryantLG';
-    font-style: normal;
-    font-weight: 700;
+  background: #B2D235;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 0;
+  border-radius: 35px;
+  font-family: 'UTM BryantLG';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: -0.05em;
+  color: #FFFFFF;
+  margin-top: 26px;
+  width: 377px;
+  height: 70px;
+}
+
+@media  (min-width: 740px) and  (max-width: 1023px) {
+  .background-banner {
+    background-image: url('/images/Hapo_Learn_banner_tablet.png');
+    height: 496px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .title-img {
+    margin: 19px 2px 0 2px;
+    height: 24px;
+  }
+
+  .title {
+    top: 153px;
+    left: 16px;
+  }
+
+  .banner-title {
     font-size: 30px;
-    line-height: 37px;
-    letter-spacing: -0.05em;
-    color: #FFFFFF;
-    margin-top: 26px;
-    width: 377px;
-    height: 70px;
+  }
+
+  .title-extra {
+    font-size: 30px;
+  }
+
+  .title-content {
+    font-size: 16px;
+  }
+
+  .btn-start {
+    font-size: 16px;
+    width: 200px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 739px) {
+  .row-color {
+    background-image: linear-gradient(0, #E5E5E5, #ffff);
+  }
+
+  .background-banner {
+    background-image: url('/images/Hapo_Learn_banner_mobile.png');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    min-height: 208px !important;
+  }
+
+  .title {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin: 16px 0 116px 0;
+    text-align: left;
+  }
+
+  .title-img {
+    margin: 0px 2px 0 2px;
+    height: 23px;
+  }
+
+  .banner-title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 32px;
+    width: 17rem;
+    margin-left: 12%;
+  }
+
+  .title-extra {
+    display: inline;
+    font-size: 25px;
+    line-height: 30px;  
+  }
+
+  .title-content {
+    display: inline;
+    margin-top: -16px;
+    font-size: 16px;
+    width: 199px;
+    margin-left: 12%;
+    width: 30px;
+  }
+
+  .start {
+    text-align: center;
+  }
+
+  .btn-start {
+    font-size: 16px;
+    width: 250px;
+    height: 46px;
+  }
 }
