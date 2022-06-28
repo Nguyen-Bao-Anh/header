@@ -29,7 +29,7 @@
 .other-courses-title,
 .course-shows {
   text-align: center;
-  font-family: 'UTM BryantLG';
+  font-family: $UTM;
   font-style: normal;
 }
 
@@ -58,7 +58,7 @@
   background: $yellow-hapo;
   box-shadow: inset 0px 1.5px 2px $dark-yellow-hapo;
   border-radius: 22px;
-  font-family: 'UTM BryantLG';
+  font-family: $UTM;
   font-style: normal;
   font-weight: 700;
   color: white;
@@ -66,7 +66,7 @@
 }
 
 .other-courses-title {
-  font-family: 'UTM BryantLG';
+  font-family: $UTM;
   font-style: normal;
   font-weight: 900;
   font-size: 80px;
