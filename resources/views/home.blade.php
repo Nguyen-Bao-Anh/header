@@ -17,7 +17,6 @@
                         !
                     </span>
                 </p>
-                </div>
             </div>
 
             <div class="title-content">
@@ -33,6 +32,7 @@
                 </button>
             </div>
         </div>
+</div>
 </div>
 
 <section class="course">
@@ -143,7 +143,7 @@
             </div>
         </div>
         <div class="row ">
-            <div class="row align-items-center">
+            <div class="row align-items-center mr-0">
                 <div class="col-lg-5 col-md-7 offset-lg-1 offset-md-0 why-content ">
                     <div class="row row-title">
                         <div class="col-4">
