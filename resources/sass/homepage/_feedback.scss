@@ -44,6 +44,7 @@
 
 .slider-item {
   padding: 0 15px;
+
   .slider-slogan {
     position: relative;
     padding: 41px 28px 33.5px 45px;
@@ -66,7 +67,7 @@
     background-color: #D9DADC;
   }
 
-  .slider-slogan:after {
+  .slider-slogan::after {
     position: absolute;
     display: block;
     content: "";
@@ -148,10 +149,12 @@
   .feedback {
     padding: 64px;
   }
+
   .feedback-heading {
     .title {
       font-size: 50px;
     }
+    
     .description {
       font-size: 18px;
       padding: 40px 20px;
