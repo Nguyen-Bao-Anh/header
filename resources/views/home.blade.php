@@ -135,16 +135,16 @@
     </div>
 </section>
 
-<section class="background-why ">
-    <div class="container-fluid ">
+<section class="background-why">
+    <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-lg-12 col-md-7">
                 <h4 class="why-tablet">Why HapoLearn?</h4>
             </div>
         </div>
-        <div class="row ">
+        <div class="row">
             <div class="row align-items-center mr-0">
-                <div class="col-lg-5 col-md-7 offset-lg-1 offset-md-0 why-content ">
+                <div class="col-lg-5 col-md-7 offset-lg-1 offset-md-0 why-content">
                     <div class="row row-title">
                         <div class="col-4">
                             <img src="{{ asset('images/why-laptop.png') }}" alt="why" class="device-mobile">
@@ -180,7 +180,6 @@
                     <img src="{{ asset('images/background-device.png') }}" alt="why" class="why-img">
                 </div>
         </div>
-            
     </div>
 </section>
 
