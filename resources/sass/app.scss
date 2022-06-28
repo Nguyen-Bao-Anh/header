@@ -4,6 +4,16 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+// Slick
+@import "~slick-carousel/slick/slick";
+@import "~slick-carousel/slick/slick-theme";
+
+// Font-Awesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
 // Variables
 @import 'variables';
 
@@ -11,11 +21,7 @@
 @import 'homepage/header';
 // banner
 @import 'homepage/banner';
+// course
+@import 'homepage/course';
 // footer
 @import 'homepage/footer';
-
-// Font-Awesome
-@import "~@fortawesome/fontawesome-free/scss/fontawesome";
-@import "~@fortawesome/fontawesome-free/scss/regular";
-@import "~@fortawesome/fontawesome-free/scss/solid";
-@import "~@fortawesome/fontawesome-free/scss/brands";
