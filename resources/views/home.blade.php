@@ -21,7 +21,7 @@
 
             <div class="title-content">
                 Interactive lessons, "on the go" 
-                <div style="margin-left: 12%;">
+                <div class="title-content-paragraph">
                 practice, peer support
                 </div>
             </div>
