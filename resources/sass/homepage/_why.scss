@@ -7,9 +7,9 @@
   
 .why-content,
 .why-tablet {
-  font-family: 'UTM BryantLG';
+  font-family: $UTM;
   font-style: normal;
-  color: #FFFFFF;
+  color: white;
 }
   
 .why-content {
@@ -80,6 +80,7 @@
     
   .row-title {
     position: relative;
+    padding-right: 0;
   }
   
   .why-title {

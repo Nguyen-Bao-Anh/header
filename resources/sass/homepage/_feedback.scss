@@ -10,7 +10,7 @@
     font-size: 80px;
     font-weight: 700;
     color: black;
-    font-family: 'UTM BryantLG';
+    font-family: $UTM;
     line-height: 95px;
     transform: translateX(-50%);
     left: 50%;
@@ -48,11 +48,11 @@
   .slider-slogan {
     position: relative;
     padding: 41px 28px 33.5px 45px;
-    background: #fff;
-    border: 0.5px solid #E5E5E5;
+    background: white;
+    border: 0.5px solid $white-hapo;
     border-radius: 10px;
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.15);
-    color: #505353 ;
+    color: $black-hapo ;
   }
 
   .slider-slogan::before {
@@ -64,7 +64,7 @@
     left: 25px;
     top: 50%;
     transform: translateY(-50%);
-    background-color: #D9DADC;
+    background-color: $dark-blue-hapo;
   }
 
   .slider-slogan::after {
@@ -75,12 +75,12 @@
     left: 26px;
     bottom: -42px;
     border-style: solid;
-    border-color: #fff transparent transparent transparent;
+    border-color: white transparent transparent transparent;
     border-width: 20px;
   }
 
   .slider-user {
-    font-family: 'UTM BryantLG';
+    font-family: $UTM;
     margin-top: 25px;
     display: flex;
     align-items: center;
@@ -110,7 +110,7 @@
 
 .user-star-icon {
   font-size: 14px;
-  color: #F2C54F;
+  color: $orange-hapo;
 }
 
 .slick-slider {
@@ -119,16 +119,16 @@
     position: absolute;
     top: 25%;
     transform: translateY(-25%);
-    background-color: #fff;
+    background-color: white;
     border-radius: 50%;
-    border: 0.5px solid #C4C4C4;
+    border: 0.5px solid $red-hapo;
     z-index: 2;
     padding: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
-    color: #969494;
+    color: $dark-hapo;
   }
 
   .slick-prev {
@@ -154,7 +154,7 @@
     .title {
       font-size: 50px;
     }
-    
+
     .description {
       font-size: 18px;
       padding: 40px 20px;
