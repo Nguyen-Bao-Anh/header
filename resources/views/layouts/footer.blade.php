@@ -49,7 +49,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div class="container text-center text-md-start mt-5 content-mobile">
             <div class="row mt-3">
                 <div class="col-12">
