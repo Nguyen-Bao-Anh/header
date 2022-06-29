@@ -1,4 +1,3 @@
-import 'slick-carousel/slick/slick';
 $('.slider').slick({
     slidesToShow: 2,
     autoplay: true,
