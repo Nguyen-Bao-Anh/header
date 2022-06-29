@@ -7,16 +7,15 @@
 </section>
 
 <div class="container-fluid">
-        <div class="row row-color">
-            <div class="col-md-5 title">
-                <div class="banner-title">
-                    Learn Anytime, Anywhere
-                    <span class="title-extra">
-                        at HapoLearn
-                        <img src="/images/Hapo.PNG" alt="haposhoft" class="title-img">
-                        !
-                    </span>
-                </p>
+    <div class="row row-color">
+        <div class="col-md-5 title">
+            <div class="banner-title">
+                Learn Anytime, Anywhere
+                <span class="title-extra">
+                    at HapoLearn
+                    <img src="/images/Hapo.PNG" alt="haposhoft" class="title-img">
+                    !
+                </span>
             </div>
 
             <div class="title-content">
@@ -32,6 +31,7 @@
                 </button>
             </div>
         </div>
+    </div>
 </div>
 
 <section class="course">
@@ -129,6 +129,142 @@
             <div class="col-lg-5 course-shows">
                 View All Our Courses 
                 <i class="fa-solid fa-arrow-right"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="background-why">
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-12 col-md-7">
+                <h4 class="why-tablet">Why HapoLearn?</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row align-items-center mr-0">
+                <div class="col-lg-5 col-md-7 offset-lg-1 offset-md-0 why-content">
+                    <div class="row row-title">
+                        <div class="col-4">
+                            <img src="{{ asset('images/why-laptop.png') }}" alt="why" class="device-mobile">
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-2 align-self-center">
+                            <h4 class="why-title why-pc">Why HapoLearn?</h4>
+                        </div>
+                    </div>
+
+                    <div class="why-text">
+                        <i class="fa-solid fa-circle-check"></i>
+                        Interactive lessons, "on-the-go" practice, peer support.
+                    </div>
+                    <div class="why-text">
+                        <i class="fa-solid fa-circle-check"></i>
+                        Interactive lessons, "on-the-go" practice, peer support.
+                    </div>
+                    <div class="why-text">
+                        <i class="fa-solid fa-circle-check"></i>
+                        Interactive lessons, "on-the-go" practice, peer support.
+                    </div>
+                    <div class="why-text">
+                        <i class="fa-solid fa-circle-check"></i>
+                        Interactive lessons, "on-the-go" practice, peer support.
+                    </div>
+                    <div class="why-text">
+                        <i class="fa-solid fa-circle-check"></i>
+                        Interactive lessons, "on-the-go" practice, peer support.
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-3">
+                    <img src="{{ asset('images/background-device.png') }}" alt="why" class="why-img">
+                </div>
+        </div>
+    </div>
+</section>
+
+<section class="feedback">
+    <div class="feedback-heading">
+        <div class="title">Feedback</div>
+        <div class="description">What other students turned professionals have to say about us after learning with us and reaching their goals</div>
+    </div>
+    <div class="container">
+        <div class="slider">
+            <div class="slider-item">
+                <div class="slider-slogan">
+                    “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
+                </div>
+                <div class="slider-user">
+                    <img src="/images/avatar.png" alt="" class="user-avatar">
+                    <div class="user-info">
+                        <div class="user-name">Hoang Anh Nguyen</div>
+                        <div class="user-language">PHP</div>
+                        <div class="user-stars">
+                            <i class="fa-solid fa-star user-star-icon"></i>
+                            <i class="fa-solid fa-star user-star-icon"></i>
+                            <i class="fa-solid fa-star user-star-icon"></i>
+                            <i class="fa-solid fa-star user-star-icon"></i>
+                            <i class="fa-regular fa-star user-star-icon"></i>
+                            <i class="fa-regular fa-star user-star-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item">
+                <div class="slider-slogan">
+                    “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
+                </div>
+                <div class="slider-user">
+                    <img src="/images/avatar.png" alt="" class="user-avatar">
+                    <div class="user-info">
+                        <div class="user-name">Hoang Anh Nguyen</div>
+                        <div class="user-language">PHP</div>
+                        <div class="user-stars">
+                            <i class="fa-solid fa-star user-star-icon"></i>
+                            <i class="fa-solid fa-star user-star-icon"></i>
+                            <i class="fa-solid fa-star user-star-icon"></i>
+                            <i class="fa-regular fa-star-half-stroke user-star-icon"></i>
+                            <i class="fa-regular fa-star user-star-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item">
+                <div class="slider-slogan">
+                    “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
+                </div>
+                <div class="slider-user">
+                    <img src="/images/avatar.png" alt="" class="user-avatar">
+                    <div class="user-info">
+                        <div class="user-name">Hoang Anh Nguyen</div>
+                        <div class="user-language">PHP</div>
+                        <div class="user-stars">
+                            <i class="fa-solid fa-star user-star-icon"></i>
+                            <i class="fa-solid fa-star user-star-icon"></i>
+                            <i class="fa-solid fa-star user-star-icon"></i>
+                            <i class="fa-regular fa-star-half-stroke user-star-icon"></i>
+                            <i class="fa-regular fa-star user-star-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-item">
+                <div class="slider-slogan">
+                    “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
+                </div>
+                <div class="slider-user">
+                    <img src="/images/avatar.png" alt="" class="user-avatar">
+                    <div class="user-info">
+                        <div class="user-name">Nguyen Bao Anh</div>
+                        <div class="user-language">PHP</div>
+                        <div class="user-stars">
+                            <i class="fa-solid fa-star user-star-icon"></i>
+                            <i class="fa-solid fa-star user-star-icon"></i>
+                            <i class="fa-solid fa-star user-star-icon"></i>
+                            <i class="fa-regular fa-star-half-stroke user-star-icon"></i>
+                            <i class="fa-regular fa-star user-star-icon"></i>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
