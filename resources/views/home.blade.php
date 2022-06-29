@@ -281,7 +281,7 @@
     </div>
 </section>
 
-<section class="Statistic">
+<section class="statistic">
     <div class="container-fluid ">
         <div class="row justify-content-center">
             <div class="col-lg-2 col-md-3 col-4 statistic-title">
