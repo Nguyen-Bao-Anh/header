@@ -7,16 +7,15 @@
 </section>
 
 <div class="container-fluid">
-        <div class="row row-color">
-            <div class="col-md-5 title">
-                <div class="banner-title">
-                    Learn Anytime, Anywhere
-                    <span class="title-extra">
-                        at HapoLearn
-                        <img src="/images/Hapo.PNG" alt="haposhoft" class="title-img">
-                        !
-                    </span>
-                </p>
+    <div class="row row-color">
+        <div class="col-md-5 title">
+            <div class="banner-title">
+                Learn Anytime, Anywhere
+                <span class="title-extra">
+                    at HapoLearn
+                    <img src="/images/Hapo.PNG" alt="haposhoft" class="title-img">
+                    !
+                </span>
             </div>
 
             <div class="title-content">
@@ -32,7 +31,7 @@
                 </button>
             </div>
         </div>
-</div>
+    </div>
 </div>
 
 <section class="course">
