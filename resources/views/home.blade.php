@@ -254,7 +254,7 @@
                 <div class="slider-user">
                     <img src="/images/avatar.png" alt="" class="user-avatar">
                     <div class="user-info">
-                        <div class="user-name">Hoang Anh Nguyen</div>
+                        <div class="user-name">Nguyen Bao Anh</div>
                         <div class="user-language">PHP</div>
                         <div class="user-stars">
                             <i class="fa-solid fa-star user-star-icon"></i>
