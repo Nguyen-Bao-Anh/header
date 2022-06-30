@@ -1,96 +1,115 @@
-<link rel="stylesheet" href="">
-<footer class="text-center text-lg-start  edit-footer">
-    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom footer-model bg-light text-muted">
-        <div>
-            <a href="" class="me-4 text-reset">
-            <i class="fa-brands fa-facebook-f"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-google"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="" class="me-4 text-reset">
-                <i class="fab fa-github"></i>
-            </a>
-        </div>
-    </section>
-
-    <section class=" ">
-        
-        <div class="container text-center text-md-start mt-5">
+<footer class="text-center text-lg-start text-muted">
+    <section class="footer">
+        <div class="container text-center text-md-start mt-5 content">
             <div class="row mt-3">
-                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 edit-column">
-                    <a class="navbar-brand edit-img" href="#">
-                        <img  class="logo-image" src="{{ asset('images/1.png') }}" alt="HapoLearn Logo">
-                    </a>
-                    <p class="edit-font">
-                        Here you can use rows and columns to organize your footer content. Lorem ipsum
-                        dolor sit amet, consectetur adipisicing elit.
-                    </p>
-                </div>
-
-                <div class="col-md-2 col-lg-2  col-xl-2  mb-4 edit-contact">
+                <div class="col-md-4 col-lg-4 col-xl-3 mx-auto mb-4 ">
                     <h6 class="text-uppercase fw-bold mb-4">
-                        Products
+                        <img src="/images/logo-black.png" alt="logo" class="footer-logo">
                     </h6>
-                    <p>
-                        <a href="#!" class="text-reset">Angular</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">React</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">Vue</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">Laravel</a>
+                    <p class="text-white logo-text">
+                        Interactive lessons, "on-the-go" practice, peer support.
                     </p>
                 </div>
-
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-                    <h6 class="text-uppercase fw-bold mb-4">
-                        Useful links
-                    </h6>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 text-white contact-list">
                     <p>
-                        <a href="#!" class="text-reset">Pricing</a>
+                        <a href="#" class="text-reset">Home</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Settings</a>
+                        <a href="#" class="text-reset">Features</a>
+                    </p>
+                        <a href="#" class="text-reset">Courses</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Orders</a>
-                    </p>
-                    <p>
-                        <a href="#!" class="text-reset">Help</a>
+                        <a href="#" class="text-reset">Blog</a>
                     </p>
                 </div>
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 text-white contact-list">
+                    <p>
+                        <a href="#" class="text-reset">Contact</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-reset">Terms of Use</a>
+                    </p>
+                    <p>
+                        <a href="#" class="text-reset">FAQ</a>
+                    </p>
+                </div>
+                <div class="col-md-4 col-lg-4 col-xl-3 text-white">
+                    <div class="social-list">
+                        <div class="social-item">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </div>
+                        <div class="social-item">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="social-item">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 edit-icon">
-                    <a href="" class="me-4 text-reset edit-icon-private">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset edit-icon-private">
-                         <i class="fab fa-google"></i>
-                    </a>
-                    <a href="" class="me-4 text-reset edit-icon-private">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-
+        <div class="container text-center text-md-start mt-5 content-mobile">
+            <div class="row mt-3">
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-6 mx-auto text-white contact-list">
+                            <p>
+                                <a href="#" class="text-reset">Home</a>
+                            </p>
+                            <p>
+                                <a href="#" class="text-reset">Features</a>
+                            </p>
+                            <a href="#" class="text-reset">Courses</a>
+                            </p>
+                            <p>
+                                <a href="#" class="text-reset">Blog</a>
+                            </p>
+                        </div>
+                        <div class="col-6 mx-auto text-white contact-list">
+                            <p>
+                                <a href="#" class="text-reset">Contact</a>
+                            </p>
+                            <p>
+                                <a href="#" class="text-reset">Terms of Use</a>
+                            </p>
+                            <p>
+                                <a href="#" class="text-reset">FAQ</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-6 mx-auto mb-4 ">
+                            <h6 class="text-uppercase fw-bold mb-4 footer-mobile-logo">
+                                <img src="/images/logo-black.png" alt="logo" class="footer-logo">
+                            </h6>
+                            <p class="text-white fz-14 logo-text">
+                                Interactive lessons, "on-the-go" practice, peer support.
+                            </p>
+                        </div>
+                        <div class="col-6 mx-auto mb-md-0 mb-4 text-white">
+                            <div class="social-list">
+                                <div class="social-item">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </div>
+                                <div class="social-item">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="social-item">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-        © 2021 Copyright:
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    <div class="text-center p-4 copy-right text-light">
+        © 2020 HapoLearn, Inc.
+        <a class="fw-bold text-reset" href="https://mdbootstrap.com/">All rights reserved.</a>
     </div>
 </footer>
