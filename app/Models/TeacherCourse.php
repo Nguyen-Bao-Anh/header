@@ -10,11 +10,12 @@ class TeacherCourse extends Model
 {
     use HasFactory, SoftDeletes;
 
+    protected $table = 'teacher_course';
+
     protected $fillable = [
         'user_id',
         'course_id',
         'course_start_date'
     ];
 
-    protected $table = 'teacher_course';
 }
