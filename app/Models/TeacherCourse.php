@@ -17,5 +17,4 @@ class TeacherCourse extends Model
         'course_id',
         'course_start_date'
     ];
-
 }

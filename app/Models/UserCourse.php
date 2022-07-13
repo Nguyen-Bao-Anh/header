@@ -17,5 +17,4 @@ class UserCourse extends Model
         'course_id',
         'register_course_time'
     ];
-
 }
