@@ -15,14 +15,19 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">All COURSES</a>
                 </li>
-                <li class="nav-item ">
-                    <a class="nav-link " href="#"  aria-haspopup="true" aria-expanded="false">
-                        LOGIN/REGISTER
-                    </a>
+                @if (!Auth::user())
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{route('login')}}">LOGIN/REGISTER <span class="sr-only">(current)</span></a>
                 </li>
+                @endif
                 <li class="nav-item">
                     <a class="nav-link " href="#">PROFILE</a>
                 </li>
+                @if (Auth::user())
+                <li class="nav-item active">
+                   <a class="nav-link" href="{{route('logout')}}" >LOGOUT <span class="sr-only">(current)</span></a>
+                </li>
+                @endif
             </ul>
         </div>
     </nav>

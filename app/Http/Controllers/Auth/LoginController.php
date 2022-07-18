@@ -55,6 +55,12 @@ class LoginController extends Controller
         if (Auth::attempt($fieldArr)) {
             return redirect('/');
         }
-        return redirect('/login')->with('status', 'Kiểm tra lại User hoặc Password !');
+        return redirect('/login')->with('error', __('message.check_error'));
+    }
+
+    public function logout()
+    {
+        Auth::logout();
+        return redirect('/');
     }
 }

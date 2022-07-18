@@ -36,9 +36,9 @@ class LoginRequest extends FormRequest
     public function messages()
     {
         return [
-            'required' => ':attribute còn trống',
-            'username.max' => 'Username có tối đa :max kí tự',
-            'password.min' => 'Password có ít nhất :min kí tự',
+            'required' => __('message.blank_error'),
+            'username.max' => __('message.maximum_characters_error'),
+            'password.min' => __('message.minimum_characters_error'),
         ];
     }
 }
