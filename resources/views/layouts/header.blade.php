@@ -25,7 +25,10 @@
                 </li>
                 @if (Auth::user())
                 <li class="nav-item active">
-                   <a class="nav-link" href="{{route('logout')}}" >LOGOUT <span class="sr-only">(current)</span></a>
+                   <form action="{{ route('logout') }}" method="POST">
+                        @csrf
+                        <button type="submit" class="nav-link btn-logout" >LOGOUT</button>
+                   </form>
                 </li>
                 @endif
             </ul>
