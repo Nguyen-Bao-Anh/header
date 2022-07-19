@@ -32,11 +32,6 @@ class LoginController extends Controller
      *
      * @return void
      */
-    public function __construct()
-    {
-
-    }
-
     public function login(LoginRequest $request)
     {
         $fieldType = filter_var($request->username, FILTER_VALIDATE_EMAIL) ? 'email' : 'username';
