@@ -26,10 +26,12 @@ class LoginRequest extends FormRequest
             'username' => [
                 'required',
                 'max:50',
+                'alpha_dash',
             ],
             'password' => [
                 'required',
                 'min:6',
+                'alpha_dash',
             ],
         ];
     }
@@ -39,6 +41,7 @@ class LoginRequest extends FormRequest
             'required' => __('message.blank_error'),
             'username.max' => __('message.maximum_characters_error'),
             'password.min' => __('message.minimum_characters_error'),
+            'alpha_dash' => __('message.without_space'),
         ];
     }
 }

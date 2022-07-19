@@ -5,6 +5,7 @@ return [
     'blank_error' => ':attribute còn trống',
     'maximum_characters_error' => 'Username có tối đa :max kí tự',
     'minimum_characters_error' => "Password có ít nhất :min kí tự",
+    'without_space' => 'Không tồn tại khoảng trắng',
     'sign_in _title' => 'Đăng nhập vào HapoLearn',
     'user' => 'Tên tài khoản',
     'password' => 'Mật khẩu',

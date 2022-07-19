@@ -5,6 +5,7 @@ return [
     'blank_error' => 'The :attribute still empty',
     'maximum_characters_error' => 'Username up to :max characters',
     'minimum_characters_error' => 'Password has at least :min characters',
+    'without_space' => 'Whitespace must not exist',
     'sign_in _title' => 'Sign in to HapoLearn',
     'user' => 'Username',
     'password' => 'Password',
