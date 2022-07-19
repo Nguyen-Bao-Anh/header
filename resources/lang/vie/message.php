@@ -14,4 +14,7 @@ return [
     'sign in witch' => 'Đăng nhập với',
     'or_new_to_HapoLearn' => 'hoặc tạo mới với HapoLearn',
     'create_new_account' => 'Tạo tài khoản',
+    'sign_up_to_HapoLearn' => 'Đăng ký tài khoản HapoLearn',
+    'confirm' => 'Nhập lại mật khẩu mới',
+    'sign_up' => 'Đăng ký'
 ];

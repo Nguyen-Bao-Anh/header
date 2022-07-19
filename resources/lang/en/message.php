@@ -14,4 +14,7 @@ return [
     'sign in witch' => 'Sign in with',
     'or_new_to_HapoLearn' => 'or New to HapoLearn',
     'create_new_account' => 'Create New Account',
+    'sign_up_to_HapoLearn' => 'Sign up to HapoLearn',
+    'confirm' => 'Confirm Password',
+    'sign_up' => 'Sign up'
 ];
