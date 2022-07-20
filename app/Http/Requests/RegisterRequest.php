@@ -49,7 +49,6 @@ class RegisterRequest extends FormRequest
             'required' => __('message.blank_error'),
             'max' => __('message.maximum_characters_error'),
             'email.email' => __('message.email'),
-            //'password_confirm' => __('message.password_confirm_same'),
             'alpha_dash' => __('message.space'),
         ];
     }
