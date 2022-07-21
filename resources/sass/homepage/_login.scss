@@ -32,10 +32,10 @@
 .btn-submit,
 .btn-register {
   background-color: $yellow-hapo;
-  color: white;
   padding: 8px 60px;
   box-shadow: inset 0px 1.5px 2px $dark-yellow-hapo;
   border-radius: 22px;
+  color: white;
 }
 
 .forgot-password {
@@ -100,5 +100,8 @@
   font-weight: 400;
   font-size: 22px;
   line-height: 25px;
-  color: white;
+
+  a {
+    color: white;
+  }
 }

@@ -66,7 +66,7 @@
                         <div class="form-group row justify-content-center">
                             <div class="col-md-10 sign-with">
                                 <p class="title-google">
-                                    {{__('message.sign in witch') }}
+                                    {{__('message.sign_in_with') }}
                                 </p>
                             </div>
                         </div>
@@ -85,14 +85,16 @@
                         <div class="form-group row justify-content-center">
                             <div class="col-md-10 sign-with model-register">
                                 <p class="title-google title-register">
-                                   {{ __('message.or_new_to_HapoLearn') }}
+                                   {{ __('message.or_new_to_hapolearn') }}
                                 </p>
                             </div>
                         </div>
 
                         <div class="from-group row mt-5 justify-content-center">
                             <button type="submit" class="btn btn-register">
-                               {{ __('message.create_new_account') }}
+                               <a href="{{ route('register') }}">
+                                    {{ __('message.create_new_account') }}
+                               </a>
                             </button>
                         </div>
                     </form>
