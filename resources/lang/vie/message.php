@@ -21,4 +21,9 @@ return [
     'password_confirm_same' => ':attribute không khớp, vui lòng kiểm tra lại',
     'space' => ':attribute không được có khoảng trắng',
     'register_error' => 'Đăng ký lỗi',
+    'take_this_course' => 'Tham gia khóa học',
+    'other_courses' => 'Khóa học khác',
+    'view_all_our_courses' => 'Tất cả các khóa học',
+    'why_hapoLearn' => 'Tại sao lựa chọn HapoLearn ?',
+    'reason_hapoLearn' => 'Các bài học tương tác, thực hành "on-the-go", hỗ trợ đồng nghiệp.',
 ];

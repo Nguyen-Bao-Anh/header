@@ -12,12 +12,17 @@
 }
 
 .img-custom {
-  background-image: url('/images/HTML.png');
+  // background-image: url('/images/HTML.png');
   background-position: center;
   background-size: auto auto;
   background-color: $blue-hapo;
   background-repeat: no-repeat;
   height: 13.5rem;
+  img {
+    height: 13.5rem;
+    width: 100%;
+    border-radius: 4px;
+  }
 }
 
 .rounded {

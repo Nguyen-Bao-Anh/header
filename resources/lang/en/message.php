@@ -20,5 +20,10 @@ return [
     'email' => 'email input error',
     'password_confirm_same' => ':attribute does not match, please check again',
     'space' => ':attribute must not have spaces',
-    'registration error' => 'registration error'
+    'registration error' => 'registration error',
+    'take_this_course' => 'Take This Course',
+    'other_courses' => 'Other courses',
+    'view_all_our_courses' => 'View All Our Courses',
+    'why_hapoLearn' => 'Why HapoLearn ?',
+    'reason_hapoLearn' => 'Interactive lessons, "on-the-go" practice, peer support.',
 ];

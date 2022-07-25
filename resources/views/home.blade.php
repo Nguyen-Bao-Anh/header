@@ -37,97 +37,61 @@
 <section class="course">
     <div class="container">
         <div class="row ">
-            <div class="col-lg-4 card-distance">
-                <div class="card border-course card-position card-shadow" >
-                    <div class="row no-gutters">
-                    <div class="img-custom col-lg-12 col-md-4 rounded"></div>
-                    <div class="card-body col-lg-12 col-md-8 card-content">
-                        <h5 class="card-title title-course" >HTML/CSS/js Tutorial</h5>
-                        <p class="card-text title-course-content">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
-                        <a href="#" class="btn btn-course">Take This Course</a>
-                    </div>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-lg-4 card-distance">
-                <div class="card border-course card-position card-shadow" >
-                    <div class="row no-gutters">
-                    <div class="img-custom col-lg-12 col-md-4 rounded"></div>
-                    <div class="card-body col-lg-12 col-md-8 card-content">
-                        <h5 class="card-title title-course" >LARAVEL Tutorial</h5>
-                        <p class="card-text title-course-content">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
-                        <a href="#" class="btn btn-course">Take This Course</a>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
+            @foreach($courses as $course)
             <div class="col-lg-4 card-distance card-end">
+               
                 <div class="card border-course card-position card-shadow" >
                     <div class="row no-gutters">
-                    <div class="img-custom col-lg-12 col-md-4 rounded"></div>
+                    <div class="img-custom col-lg-12 col-md-4 rounded">
+                        <img src="{{ $course->image }}" alt="course">
+                    </div>
                     <div class="card-body col-lg-12 col-md-8 card-content">
-                        <h5 class="card-title title-course" >PHP Tutorial</h5>
-                        <p class="card-text title-course-content">I knew hardly anything about HTML, JS, and CSS before entering New Media. I had coded quite a bit, but never touched anything in regards to web development.</p>
-                        <a href="#" class="btn btn-course">Take This Course</a>
+                        <h5 class="card-title title-course" >{{ $course->name }}</h5>
+                        <p class="card-text title-course-content">{{ $course->describe }}</p>
+                        <a href="#" class="btn btn-course">
+                            {{ __('message.take_this_course') }}
+                        </a>
                     </div>
                     </div>
                 </div>
             </div>
+            @endforeach
         </div>
 
         <!-- Other courses -->
         <div class="row justify-content-center">
             <div class="col-lg-6 other-courses-title">
-                <p class="other-courses-text">Other courses</p>
+                <p class="other-courses-text">
+                    {{ __('message.other_courses') }}
+                </p>
             </div>
         </div>
 
         <div class="row other-card-position ">
-        <div class="col-lg-4 card-distance">
+            @foreach($courses as $course)
+            <div class="col-lg-4 card-distance card-end">
                 <div class="card border-course card-shadow" >
                     <div class="row no-gutters">
-                    <div class="img-custom col-lg-12 col-md-4 rounded"></div>
+                    <div class="img-custom col-lg-12 col-md-4 rounded">
+                        <img src="{{ $course->image }}" alt="course">
+                    </div>
                     <div class="card-body col-lg-12 col-md-8 card-content">
-                        <h5 class="card-title title-course" >CSS Tutorial</h5>
-                        <p class="card-text title-course-content">I knew hardly anything about HTML, JS, and CSS before entering New Media,...</p>
-                        <a href="#" class="btn btn-course">Take This Course</a>
+                        <h5 class="card-title title-course" >{{ $course->name }}</h5>
+                        <p class="card-text title-course-content">{{ $course->describe }}</p>
+                        <a href="#" class="btn btn-course">
+                            {{ __('message.take_this_course') }}
+                        </a>
                     </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-4 card-distance">
-                <div class="card border-course  card-shadow" >
-                    <div class="row no-gutters">
-                    <div class="img-custom col-lg-12 col-md-4 rounded"></div>
-                    <div class="card-body col-lg-12 col-md-8 card-content">
-                        <h5 class="card-title title-course" >Ruby on rails Tutorial</h5>
-                        <p class="card-text title-course-content"> I knew hardly anything about HTML, JS, and CSS before entering New Media,...</p>
-                        <a href="#" class="btn btn-course">Take This Course</a>
-                    </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 card-distance card-end">
-                <div class="card border-course  card-shadow" >
-                    <div class="row no-gutters">
-                    <div class="img-custom col-lg-12 col-md-4 rounded"></div>
-                    <div class="card-body col-lg-12 col-md-8 card-content">
-                        <h5 class="card-title title-course" >Ruby on rails Tutorial</h5>
-                        <p class="card-text title-course-content"> I knew hardly anything about HTML, JS, and CSS before entering New Media,...</p>
-                        <a href="#" class="btn btn-course">Take This Course</a>
-                    </div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
 
         <div class="row  justify-content-center">
             <div class="col-lg-5 course-shows">
-                View All Our Courses 
+                {{ __('message.view_all_our_courses') }}
                 <i class="fa-solid fa-arrow-right"></i>
             </div>
         </div>
@@ -138,7 +102,9 @@
     <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-lg-12 col-md-7">
-                <h4 class="why-tablet">Why HapoLearn?</h4>
+                <h4 class="why-tablet">
+                    {{ __('message.why_hapoLearn') }}
+                </h4>
             </div>
         </div>
         <div class="row">
@@ -149,29 +115,29 @@
                             <img src="{{ asset('images/why-laptop.png') }}" alt="why" class="device-mobile">
                         </div>
                         <div class="col-lg-12 col-md-12 col-2 align-self-center">
-                            <h4 class="why-title why-pc">Why HapoLearn?</h4>
+                            <h4 class="why-title why-pc">{{ __('message.why_hapoLearn') }}</h4>
                         </div>
                     </div>
 
                     <div class="why-text">
                         <i class="fa-solid fa-circle-check"></i>
-                        Interactive lessons, "on-the-go" practice, peer support.
+                        {{ __('message.reason_hapoLearn') }}
                     </div>
                     <div class="why-text">
                         <i class="fa-solid fa-circle-check"></i>
-                        Interactive lessons, "on-the-go" practice, peer support.
+                        {{ __('message.reason_hapoLearn') }}
                     </div>
                     <div class="why-text">
                         <i class="fa-solid fa-circle-check"></i>
-                        Interactive lessons, "on-the-go" practice, peer support.
+                        {{ __('message.reason_hapoLearn') }}
                     </div>
                     <div class="why-text">
                         <i class="fa-solid fa-circle-check"></i>
-                        Interactive lessons, "on-the-go" practice, peer support.
+                        {{ __('message.reason_hapoLearn') }}
                     </div>
                     <div class="why-text">
                         <i class="fa-solid fa-circle-check"></i>
-                        Interactive lessons, "on-the-go" practice, peer support.
+                        {{ __('message.reason_hapoLearn') }}
                     </div>
                 </div>
 
@@ -183,6 +149,7 @@
 </section>
 
 <section class="feedback">
+    @foreach ( $reviews as $item )
     <div class="feedback-heading">
         <div class="title">Feedback</div>
         <div class="description">What other students turned professionals have to say about us after learning with us and reaching their goals</div>

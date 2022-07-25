@@ -16,7 +16,7 @@ class CourseFactory extends Factory
         return [
             'name' => $this->faker->name(),
             'describe' => $this->faker->text(),
-            'image' => $this->faker->imageUrl(640, 480),
+            'image' => 'https://random.imagecdn.app/500/150',
             'price' => $this->faker->numberBetween(5000, 50000)
         ];
     }
