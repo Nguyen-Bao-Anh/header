@@ -15,7 +15,7 @@ class Review extends Model
         'time',
         'rate',
         'course_id',
-        'course_id',
+        'user_id',
         'parent_id'
     ];
 
