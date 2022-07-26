@@ -16,7 +16,7 @@ class Program extends Model
         'lesson_id'
     ];
 
-    public function lesson()
+    public function lessons()
     {
         return $this->belongsTo(Lesson::class);
     }

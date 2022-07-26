@@ -3,7 +3,6 @@
 @section('content')
 
 <section class="example background-banner">
-    
 </section>
 
 <div class="container-fluid">
@@ -37,10 +36,8 @@
 <section class="course">
     <div class="container">
         <div class="row ">
-
             @foreach($courses as $course)
             <div class="col-lg-4 card-distance card-end">
-               
                 <div class="card border-course card-position card-shadow" >
                     <div class="row no-gutters">
                     <div class="img-custom col-lg-12 col-md-4 rounded">
@@ -149,90 +146,33 @@
 </section>
 
 <section class="feedback">
-    @foreach ( $reviews as $item )
     <div class="feedback-heading">
         <div class="title">Feedback</div>
         <div class="description">What other students turned professionals have to say about us after learning with us and reaching their goals</div>
     </div>
     <div class="container">
         <div class="slider">
+            @foreach ( $reviews as $review )
             <div class="slider-item">
                 <div class="slider-slogan">
-                    “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
+                    {{ $review->message }}
                 </div>
                 <div class="slider-user">
-                    <img src="/images/avatar.png" alt="" class="user-avatar">
+                    <img src="{{ asset('images/avatar.png') }}" alt="avatar" class="user-avatar">
                     <div class="user-info">
-                        <div class="user-name">Hoang Anh Nguyen</div>
-                        <div class="user-language">PHP</div>
+                        <div class="user-name">{{ $review->course->name }}</div>
+                        <div class="user-language">{{ $review->course->name }}<</div>
                         <div class="user-stars">
-                            <i class="fa-solid fa-star user-star-icon"></i>
-                            <i class="fa-solid fa-star user-star-icon"></i>
-                            <i class="fa-solid fa-star user-star-icon"></i>
-                            <i class="fa-solid fa-star user-star-icon"></i>
-                            <i class="fa-regular fa-star user-star-icon"></i>
-                            <i class="fa-regular fa-star user-star-icon"></i>
+                        @php
+                        $rate = $review['rate'];
+                        @endphp
+                        @for($i = 0; $i < $rate ; $i++) <i class="fa-solid fa-star user-star-icon"></i>
+                            @endfor
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="slider-item">
-                <div class="slider-slogan">
-                    “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
-                </div>
-                <div class="slider-user">
-                    <img src="/images/avatar.png" alt="" class="user-avatar">
-                    <div class="user-info">
-                        <div class="user-name">Hoang Anh Nguyen</div>
-                        <div class="user-language">PHP</div>
-                        <div class="user-stars">
-                            <i class="fa-solid fa-star user-star-icon"></i>
-                            <i class="fa-solid fa-star user-star-icon"></i>
-                            <i class="fa-solid fa-star user-star-icon"></i>
-                            <i class="fa-regular fa-star-half-stroke user-star-icon"></i>
-                            <i class="fa-regular fa-star user-star-icon"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="slider-item">
-                <div class="slider-slogan">
-                    “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
-                </div>
-                <div class="slider-user">
-                    <img src="/images/avatar.png" alt="" class="user-avatar">
-                    <div class="user-info">
-                        <div class="user-name">Hoang Anh Nguyen</div>
-                        <div class="user-language">PHP</div>
-                        <div class="user-stars">
-                            <i class="fa-solid fa-star user-star-icon"></i>
-                            <i class="fa-solid fa-star user-star-icon"></i>
-                            <i class="fa-solid fa-star user-star-icon"></i>
-                            <i class="fa-regular fa-star-half-stroke user-star-icon"></i>
-                            <i class="fa-regular fa-star user-star-icon"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="slider-item">
-                <div class="slider-slogan">
-                    “A wonderful course on how to start. Eddie beautifully conveys all essentials of a becoming a good Angular developer. Very glad to have taken this course. Thank you Eddie Bryan.”
-                </div>
-                <div class="slider-user">
-                    <img src="/images/avatar.png" alt="" class="user-avatar">
-                    <div class="user-info">
-                        <div class="user-name">Nguyen Bao Anh</div>
-                        <div class="user-language">PHP</div>
-                        <div class="user-stars">
-                            <i class="fa-solid fa-star user-star-icon"></i>
-                            <i class="fa-solid fa-star user-star-icon"></i>
-                            <i class="fa-solid fa-star user-star-icon"></i>
-                            <i class="fa-regular fa-star-half-stroke user-star-icon"></i>
-                            <i class="fa-regular fa-star user-star-icon"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
     </div>
 </section>
@@ -255,19 +195,18 @@
                 Statistic
             </div>
         </div>
-
         <div class="row justify-content-around statistic-location">
             <div class="col-lg-2 col-md-2 statistic-element">
                 <p>Courses</p>
-                <p class="statistic-element-number">1,586</p>
+                <p class="statistic-element-number">{{ $totalCourse }}</p>
             </div>
             <div class="col-lg-2 col-md-2 statistic-element">
                 <p>Lessons</p>
-                <p class="statistic-element-number">2,689</p>
+                <p class="statistic-element-number">{{ $totalLesson }}</p>
             </div>
             <div class="col-lg-2 col-md-2 statistic-element">
                 <p>Learners</p>
-                <p class="statistic-element-number">16,882</p>
+                <p class="statistic-element-number">{{ $learners }}</p>
             </div>
         </div>
     </div>
