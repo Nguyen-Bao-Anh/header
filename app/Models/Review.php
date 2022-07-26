@@ -28,4 +28,9 @@ class Review extends Model
     {
         return $this->belongsTo(User::class);
     }
+
+    public function scopeMain($query)
+    {
+        return $query->orderBy('time', config('amount.sort_hight_to_low'))->limit(config('amount.review_number_home'));
+    }
 }
