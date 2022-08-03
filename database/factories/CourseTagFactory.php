@@ -3,8 +3,10 @@
 namespace Database\Factories;
 
 use Illuminate\Database\Eloquent\Factories\Factory;
+use App\Models\Course;
+use App\Models\Tag;
 
-class LessonFactory extends Factory
+class CourseTagFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -14,10 +16,8 @@ class LessonFactory extends Factory
     public function definition()
     {
         return [
-            'course_id' => $this->faker->numberBetween(0, 10),
-            'title' => $this->faker->text(200),
-            'time' => rand(1, 5),
-            'describe' => $this->faker->text(255),
+            "course_id" => $this->faker->randomElement(Course::pluck('id')),
+            "tag_id" => $this->faker->randomElement(Tag::pluck('id')),
         ];
     }
 }

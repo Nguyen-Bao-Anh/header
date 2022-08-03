@@ -13,7 +13,7 @@
                     <a class="nav-link" href="#">Home </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">All COURSES</a>
+                    <a class="nav-link" href="{{ route('course') }}">All COURSES</a>
                 </li>
                 @if (!Auth::user())
                 <li class="nav-item active">

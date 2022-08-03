@@ -8,6 +8,9 @@
 @import "~slick-carousel/slick/slick";
 @import "~slick-carousel/slick/slick-theme";
 
+// Select2
+@import "~select2/dist/css/select2.css";
+
 // Font-Awesome
 @import "~@fortawesome/fontawesome-free/scss/fontawesome";
 @import "~@fortawesome/fontawesome-free/scss/regular";
@@ -37,4 +40,7 @@
 @import 'homepage/login';
 //register
 @import 'homepage/register';
+//list course
+@import 'homepage/list_course';
 
+@import 'homepage/pagination';
