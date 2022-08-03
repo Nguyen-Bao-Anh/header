@@ -18,17 +18,6 @@ class CourseController extends Controller
      */
     public function index(Request $request)
     {
-        $order_by = $request->order_by??"1"; //1:ASC 2 DESC
-        $search = $request->search??"";
-        // $courses = DB::table('Courses')->where('name','LIKE','%'.$search.'%')->get();
-        // $courses = Course::where('name','LIKE','%'.$search.'%')->get();
-        // $query = Course::where('name','LIKE','%'.$search.'%');
-        // if($order_by == 1){
-        //     $query = $query->orderBy('name');
-        // }else{
-        //     $query = $query->orderBy('name','DESC');
-        // }
-        // $courses = $query->get();
         $data = $request->all();
         $courses = Course::search($data)->paginate(4);
         $teachers = User::teachers()->get();
