@@ -22,7 +22,7 @@ class CourseController extends Controller
         $courses = Course::search($data)->paginate(4);
         $teachers = User::teachers()->get();
         $tags = Tag::all();
-        return view('course', compact('courses', 'search', 'teachers', 'tags'));
+        return view('course', compact('courses', 'teachers', 'tags'));
     }
 
     /**
