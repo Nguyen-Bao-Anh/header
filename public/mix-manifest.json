@@ -1,5 +1,6 @@
 {
     "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
     "/images/avatar.png": "/images/avatar.png",
     "/images/background-device.png": "/images/background-device.png",
     "/images/background-why.png": "/images/background-why.png",
@@ -28,6 +29,5 @@
     "/fonts/vendor/slick-carousel/slick/slick.eot": "/fonts/vendor/slick-carousel/slick/slick.eot",
     "/fonts/vendor/slick-carousel/slick/slick.svg": "/fonts/vendor/slick-carousel/slick/slick.svg",
     "/fonts/vendor/slick-carousel/slick/slick.ttf": "/fonts/vendor/slick-carousel/slick/slick.ttf",
-    "/fonts/vendor/slick-carousel/slick/slick.woff": "/fonts/vendor/slick-carousel/slick/slick.woff",
-    "/css/app.css": "/css/app.css"
+    "/fonts/vendor/slick-carousel/slick/slick.woff": "/fonts/vendor/slick-carousel/slick/slick.woff"
 }

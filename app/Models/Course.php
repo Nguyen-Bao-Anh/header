@@ -30,7 +30,7 @@ class Course extends Model
 
     public function users()
     {
-        return $this->belongsToMany(User::class, 'user_course');
+        return $this->belongsToMany(User::class, 'user_course', 'course_id');
     }
 
     public function teachers()
@@ -66,11 +66,11 @@ class Course extends Model
     public function scopeSearch($query, $data)
     {
         if (isset($data['keyword'])) {
-            $query->where('name', 'LIKE', '%' . $data['keyword'] . '%')->orWhere('description', 'LIKE', '%' . $data['keyword'] . '%');
+            $query->where('name', 'LIKE', '%' . $data['keyword'] . '%')->orWhere('describe', 'LIKE', '%' . $data['keyword'] . '%');
         }
 
         if (isset($data['created_time'])) {
-            $query->orderBy('courses.created_at', config('course.sort_hight_to_low'));
+            $query->orderBy('courses.created_at', config('amount.sort_hight_to_low'));
         }
 
         if (isset($data['teachers']) && !empty($data['teachers'])) {

@@ -1,6 +1,6 @@
 <header class="main-header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-order">
-        <a class="navbar-brand navbar-img" href="#">
+        <a class="navbar-brand navbar-img" href="{{ route('home') }}">
             <img class="logo-image" src="{{ asset('images/logo.png') }}" alt="HapoLearn Logo">
         </a>
         <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
