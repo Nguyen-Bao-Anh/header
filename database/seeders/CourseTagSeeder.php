@@ -2,10 +2,10 @@
 
 namespace Database\Seeders;
 
-use App\Models\Lesson;
+use App\Models\CourseTag;
 use Illuminate\Database\Seeder;
 
-class LessonsTableSeeder extends Seeder
+class CourseTagSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,6 +14,6 @@ class LessonsTableSeeder extends Seeder
      */
     public function run()
     {
-        Lesson::factory()->count(10)->create();
+        CourseTag::factory()->times(1)->create();
     }
 }

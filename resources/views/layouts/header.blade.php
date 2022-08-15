@@ -1,6 +1,6 @@
 <header class="main-header">
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-order">
-        <a class="navbar-brand navbar-img" href="#">
+        <a class="navbar-brand navbar-img" href="{{ route('home') }}">
             <img class="logo-image" src="{{ asset('images/logo.png') }}" alt="HapoLearn Logo">
         </a>
         <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,7 +13,7 @@
                     <a class="nav-link" href="#">Home </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">All COURSES</a>
+                    <a class="nav-link" href="{{ route('course') }}">All COURSES</a>
                 </li>
                 @if (!Auth::user())
                 <li class="nav-item active">

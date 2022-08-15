@@ -7,6 +7,10 @@
 require('./bootstrap');
 import 'slick-carousel/slick/slick';
 require('./slick');
+import 'select2';
+require('./select2');
+require('./search');
+require('./filter');
 
 window.Vue = require('vue').default;
 

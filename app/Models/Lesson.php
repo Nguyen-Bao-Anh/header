@@ -14,6 +14,7 @@ class Lesson extends Model
         'title',
         'describe',
         'requirement',
+        'time',
         'course_id'
     ];
 

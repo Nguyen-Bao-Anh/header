@@ -54,7 +54,6 @@ class RegisterController extends Controller
     public function register(RegisterRequest $request)
     {
         $user = $this->create($request->all());
-
         if ($user) {
             Auth::login($user);
             return redirect()->route('home');
