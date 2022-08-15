@@ -6,8 +6,6 @@ use Illuminate\Http\Request;
 use App\Models\Course;
 use App\Models\User;
 use App\Models\Tag;
-use Illuminate\Support\Facades\DB;
-use Illuminate\Pagination\Paginator;
 
 class CourseController extends Controller
 {
